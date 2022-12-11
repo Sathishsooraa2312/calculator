@@ -1,0 +1,42 @@
+.buttonbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+   font-weight: bolder; 
+   background-color: crimson;
+   height:29px;
+   border-radius: 50% !important;
+   object-fit: cover !important;
+   
+   
+}
+.card{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: black !important
+}
+/* .calci{
+    background: red;
+} */
+input{
+    border-radius: 20px;
+    font-weight: bolder;
+    border: 2px solid black;
+    color:black;
+    /* height: 20px !important; */
+    
+}
+button:hover{
+    color:crimson;
+    background-color:whitesmoke;
+}
+.symbols{
+    background-color: teal;
+}
